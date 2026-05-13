@@ -34,3 +34,6 @@ body {
     @apply font-barlow;
 }
 
+html {
+  scroll-behavior: smooth;
+}
