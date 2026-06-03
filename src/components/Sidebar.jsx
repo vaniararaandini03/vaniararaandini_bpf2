@@ -1,6 +1,6 @@
 import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlineUnorderedList } from "react-icons/ai";
-import { MdSpaceDashboard } from "react-icons/md";
+import { MdFastfood, MdSpaceDashboard } from "react-icons/md";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Sidebar() {
@@ -52,6 +52,12 @@ export default function Sidebar() {
             <NavLink id="menu-3" to="/customers" className={menuClass}>
               <AiOutlineUser className="mr-4 text-xl" />
               Customers
+            </NavLink>
+          </li>
+          <li>
+            <NavLink id="menu-4" to="/products" className={menuClass}>
+              <MdFastfood className="mr-4 text-xl" />
+              Products
             </NavLink>
           </li>
         </ul>
