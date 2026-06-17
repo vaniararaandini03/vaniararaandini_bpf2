@@ -7,6 +7,7 @@ import Customers from "./pages/Customers";
 import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
+import Notes from "./pages/Notes";
 
 import MainLayout from "./layouts/MainLayout";
 import AuthLayout from "./layouts/AuthLayout";
@@ -38,6 +39,7 @@ function App() {
           <Route path="/customers" element={<Customers />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetail />} /> 
+          <Route path="/notes" element={<Notes />} />
         </Route>
 
         {/* ================= AUTH LAYOUT ================= */}
